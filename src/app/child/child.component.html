@@ -1,0 +1,8 @@
+<h2> Count </h2>
+
+Enter number : <input type="number" [(ngModel)]="val" >
+<br>
+
+Click to send data  : <input type="button" (click)="emitData()" value="Send">
+
+Response recieved from parent : {{ responseValue | titlecase }}

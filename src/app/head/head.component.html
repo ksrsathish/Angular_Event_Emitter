@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+
+<app-child  (countData) = "emitData($event)" [responseValue]= "responseValue" > </app-child>
+
+
+
+<h2> Data from Child </h2>
+<div class="container">
+<div class="row">
+<div class="col-sm-8">
+  <div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+  </div>
+  Count : {{ value1 }}
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
